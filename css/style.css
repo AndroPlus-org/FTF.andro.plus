@@ -1,0 +1,117 @@
+.Z,.S,.AM,.Z1,.Z1a,.Z1f,.Z2,.A2,.ZL2,.SX,.VL,.UL,.TZ,.ZU,.AX,.NX,.GX,.aHD,.play,.ray,.acro,.arc,.x10,.a12S,.mini,.Z2T,.Z3dcm,.Z3au,.Z3sb,.Z3c,.J1c{
+background-position: right center; 
+background-repeat:no-repeat;
+background-size:contain;
+filter: alpha(opacity=60);
+-moz-opacity: 0.6;
+opacity: 0.6;
+height: 250px;
+}
+.panel-body a{
+filter: alpha(opacity=100);
+-moz-opacity: 1.0;
+opacity: 1.0;
+color:#1111cc;
+font-size: 1.3em;
+}
+span, p{
+	font-size: 1.3em;
+}
+.notice{
+	background-color:#A9F5D0;
+	border-radius:5px;
+	padding:2px;
+}
+.Z{
+background-image: url("../img/SO-02E.png");
+}
+.S{
+background-image: url("../img/IS11S.png");
+}
+.AM{
+background-image: url("../img/SO-04Em.png");
+}
+.Z1{
+background-image: url("../img/SO-01F.png");
+}
+.Z1a{
+background-image: url("../img/SOL23.png");
+}
+.Z1f{
+background-image: url("../img/SO-02F.png");
+}
+.Z2{
+background-image: url("../img/SO-03F.png");
+}
+.A2{
+background-image: url("../img/SO-04F.png");
+}
+.ZL2{
+background-image: url("../img/SOL25.png");
+}
+.SX{
+background-image: url("../img/SO-05D.png");
+}
+.VL{
+background-image: url("../img/SOL21.png");
+}
+.UL{
+background-image: url("../img/SOL22.png");
+}
+.TZ{
+background-image: url("../img/SO-03E.png");
+}
+.ZU{
+background-image: url("../img/SOL24.png");
+}
+.AX{
+background-image: url("../img/SO-01E.png");
+}
+.NX{
+background-image: url("../img/SO-02D.png");
+}
+.GX{
+background-image: url("../img/SO-04D.png");
+}
+.aHD{
+background-image: url("../img/SO-03D.png");
+}
+.play{
+background-image: url("../img/SO-01D.png");
+}
+.ray{
+background-image: url("../img/SO-03C.png");
+}
+.acro{
+background-image: url("../img/SO-02C.png");
+}
+.arc{
+background-image: url("../img/SO-01C.png");
+}
+.x10{
+background-image: url("../img/SO-01B.png");
+}
+.a12S{
+background-image: url("../img/IS12S.png");
+}
+.mini{
+background-image: url("../img/S51SE.png");
+}
+.Z2T{
+background-image: url("../img/Z2T.png");
+}
+.Z3dcm{
+background-image: url("../img/SO-01G.png");
+}
+.Z3au{
+background-image: url("../img/SOL26.png");
+}
+.Z3sb{
+background-image: url("../img/401SO.png");
+}
+.Z3c{
+background-image: url("../img/SO-02G.png");
+}
+.J1c{
+background-image: url("../img/D5788.png");
+}
