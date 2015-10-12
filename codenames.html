@@ -30,6 +30,7 @@
 	<script type="text/javascript" src="js/jquery.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/scripts.js"></script>
+	<script type="text/javascript" src="js/jquery.lazyload.min.js"></script>
 	<script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -40,7 +41,15 @@
   ga('require', 'displayfeatures');
   ga('require', 'linkid');
   ga('send', 'pageview');
-  </script>
+$( function()
+{
+	$( "img.lazy" ).lazyload(
+{
+	threshold: 200,
+	effect: "fadeIn"
+});
+} ) ;
+</script>
 </head>
 
 <body>
@@ -93,7 +102,7 @@ Xperiaのコードネーム一覧です。<br />
 					<div id="panel-element-98673111789" class="panel-collapse">
 						<div class="panel-body">
 							<p class="codenames_blk">
-							Xperia™ X10<br /><img src="img/SO-01B.png" height="200" /><br />Rachael
+							Xperia™ X10<br /><img class="lazy" data-original="img/SO-01B.png" height="200" /><br />Rachael
 							</p>
 						</div>
 					</div>
@@ -106,13 +115,13 @@ Xperiaのコードネーム一覧です。<br />
 					<div id="panel-element-986731117892" class="panel-collapse">
 						<div class="panel-body">
 							<p class="codenames_blk">
-							Xperia™ X10 Mini<br /><img src="img/xperia-x10-mini.png" height="200" /><br />Robyn
+							Xperia™ X10 Mini<br /><img class="lazy" data-original="img/xperia-x10-mini.png" height="200" /><br />Robyn
 							</p>
 							<p class="codenames_blk">
-							Xperia™ X10 Mini Pro<br /><img src="img/xperia-x10-mini-pro.png" height="200" /><br />Mimmi
+							Xperia™ X10 Mini Pro<br /><img class="lazy" data-original="img/xperia-x10-mini-pro.png" height="200" /><br />Mimmi
 							</p>
 							<p class="codenames_blk">
-							Xperia™ X8<br /><img src="img/xperia-x8.png" height="200" /><br />Shakira
+							Xperia™ X8<br /><img class="lazy" data-original="img/xperia-x8.png" height="200" /><br />Shakira
 							</p>
 						</div>
 					</div>
@@ -125,37 +134,37 @@ Xperiaのコードネーム一覧です。<br />
 					<div id="panel-element-9867311178921" class="panel-collapse">
 						<div class="panel-body">
 							<p class="codenames_blk">
-							Xperia™ arc<br /><img src="img/SO-01C.png" height="200" /><br />Anzu
+							Xperia™ arc<br /><img class="lazy" data-original="img/SO-01C.png" height="200" /><br />Anzu
 							</p>
 							<p class="codenames_blk">
-							Xperia™ PLAY<br /><img src="img/SO-01D.png" height="200" /><br />Zeus / Zeusc
+							Xperia™ PLAY<br /><img class="lazy" data-original="img/SO-01D.png" height="200" /><br />Zeus / Zeusc
 							</p>
 							<p class="codenames_blk">
-							Xperia™ neo<br /><img src="img/xperia-neo.png" height="200" /><br />Hallon
+							Xperia™ neo<br /><img class="lazy" data-original="img/xperia-neo.png" height="200" /><br />Hallon
 							</p>
 							<p class="codenames_blk">
-							Xperia™ pro<br /><img src="img/xperia-pro.png" height="200" /><br />Iyokan
+							Xperia™ pro<br /><img class="lazy" data-original="img/xperia-pro.png" height="200" /><br />Iyokan
 							</p>
 							<p class="codenames_blk">
-							Xperia™ acro<br /><img src="img/SO-02C.png" height="200" /><img src="img/IS11S.png" height="200" /><br />Azusa / Akane
+							Xperia™ acro<br /><img class="lazy" data-original="img/SO-02C.png" height="200" /><img class="lazy" data-original="img/IS11S.png" height="200" /><br />Azusa / Akane
 							</p>
 							<p class="codenames_blk">
-							Xperia™ mini<br /><img src="img/xperia-mini.png" height="200" /><br />Smultron
+							Xperia™ mini<br /><img class="lazy" data-original="img/xperia-mini.png" height="200" /><br />Smultron
 							</p>
 							<p class="codenames_blk">
-							Xperia™ mini pro<br /><img src="img/xperia-mini-pro.png" height="200" /><br />Mango
+							Xperia™ mini pro<br /><img class="lazy" data-original="img/xperia-mini-pro.png" height="200" /><br />Mango
 							</p>
 							<p class="codenames_blk">
-							Xperia™ ray<br /><img src="img/SO-03C.png" height="200" /><br />Urushi
+							Xperia™ ray<br /><img class="lazy" data-original="img/SO-03C.png" height="200" /><br />Urushi
 							</p>
 							<p class="codenames_blk">
-							Xperia™ active<br /><img src="img/xperia-active.png" height="200" /><br />Satsuma
+							Xperia™ active<br /><img class="lazy" data-original="img/xperia-active.png" height="200" /><br />Satsuma
 							</p>
 							<p class="codenames_blk">
-							Xperia™ neo V<br /><img src="img/xperia-neo-v.png" height="200" /><br />Haida
+							Xperia™ neo V<br /><img class="lazy" data-original="img/xperia-neo-v.png" height="200" /><br />Haida
 							</p>
 							<p class="codenames_blk">
-							Xperia™ arc S<br /><img src="img/xperia-arc-S.png" height="200" /><br />Ayame
+							Xperia™ arc S<br /><img class="lazy" data-original="img/xperia-arc-S.png" height="200" /><br />Ayame
 							</p>
 						</div>
 					</div>
@@ -168,19 +177,19 @@ Xperiaのコードネーム一覧です。<br />
 					<div id="panel-element-986731117893" class="panel-collapse">
 						<div class="panel-body">
 							<p class="codenames_blk">
-							Xperia™ S / NX<br /><img src="img/nozomi.png" height="200" /><img src="img/SO-02D.png" height="200" /><br />Nozomi
+							Xperia™ S / NX<br /><img class="lazy" data-original="img/nozomi.png" height="200" /><img class="lazy" data-original="img/SO-02D.png" height="200" /><br />Nozomi
 							</p>
 							<p class="codenames_blk">
-							Xperia™ ion<br /><img src="img/ion.png" height="200" /><br />Aoba
+							Xperia™ ion<br /><img class="lazy" data-original="img/ion.png" height="200" /><br />Aoba
 							</p>
 							<p class="codenames_blk">
-							Xperia™ acro HD<br /><img src="img/SO-03D.png" height="200" /><img src="img/IS12S.png" height="200" /><br />Hikari / Hayate
+							Xperia™ acro HD<br /><img class="lazy" data-original="img/SO-03D.png" height="200" /><img class="lazy" data-original="img/IS12S.png" height="200" /><br />Hikari / Hayate
 							</p>
 							<p class="codenames_blk">
-							Xperia™ acro S<br /><img src="img/hikari.png" height="200" /><br />Hikari
+							Xperia™ acro S<br /><img class="lazy" data-original="img/hikari.png" height="200" /><br />Hikari
 							</p>
 							<p class="codenames_blk">
-							Xperia™ SL<br /><img src="img/nozomi2.png" height="200" /><br />Nozomi2
+							Xperia™ SL<br /><img class="lazy" data-original="img/nozomi2.png" height="200" /><br />Nozomi2
 							</p>
 						</div>
 					</div>
@@ -193,7 +202,7 @@ Xperiaのコードネーム一覧です。<br />
 					<div id="panel-element-98673111789323" class="panel-collapse">
 						<div class="panel-body">
 							<p class="codenames_blk">
-							Xperia™ neo L<br /><img src="img/xperia-neo-l.png" height="200" /><br />Phoenix
+							Xperia™ neo L<br /><img class="lazy" data-original="img/xperia-neo-l.png" height="200" /><br />Phoenix
 							</p>
 							<p class="codenames_blk">
 							<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -218,16 +227,16 @@ Xperiaのコードネーム一覧です。<br />
 					<div id="panel-element-9867311178932" class="panel-collapse">
 						<div class="panel-body">
 							<p class="codenames_blk">
-							Xperia™ sola<br /><img src="img/pepper.png" height="200" /><br />Pepper
+							Xperia™ sola<br /><img class="lazy" data-original="img/pepper.png" height="200" /><br />Pepper
 							</p>
 							<p class="codenames_blk">
-							Xperia™ P<br /><img src="img/nypon.png" height="200" /><br />Nypon
+							Xperia™ P<br /><img class="lazy" data-original="img/nypon.png" height="200" /><br />Nypon
 							</p>
 							<p class="codenames_blk">
-							Xperia™ U<br /><img src="img/kumquat.png" height="200" /><br />Kumquat
+							Xperia™ U<br /><img class="lazy" data-original="img/kumquat.png" height="200" /><br />Kumquat
 							</p>
 							<p class="codenames_blk">
-							Xperia™ go<br /><img src="img/lotus.png" height="200" /><br />Lotus
+							Xperia™ go<br /><img class="lazy" data-original="img/lotus.png" height="200" /><br />Lotus
 							</p>
 						</div>
 					</div>
@@ -240,16 +249,16 @@ Xperiaのコードネーム一覧です。<br />
 					<div id="panel-element-986731117893245" class="panel-collapse">
 						<div class="panel-body">
 							<p class="codenames_blk">
-							Xperia™ SX<br /><img src="img/SO-05D.png" height="200" /><br />Komachi
+							Xperia™ SX<br /><img class="lazy" data-original="img/SO-05D.png" height="200" /><br />Komachi
 							</p>
 							<p class="codenames_blk">
-							Xperia™ TX / GX<br /><img src="img/hayabusa.png" height="200" /><img src="img/SO-04D.png" height="200" /><br />Hayabusa
+							Xperia™ TX / GX<br /><img class="lazy" data-original="img/hayabusa.png" height="200" /><img class="lazy" data-original="img/SO-04D.png" height="200" /><br />Hayabusa
 							</p>
 							<p class="codenames_blk">
-							Xperia™ T / TL<br /><img src="img/mint.png" height="200" /><br />Mint
+							Xperia™ T / TL<br /><img class="lazy" data-original="img/mint.png" height="200" /><br />Mint
 							</p>
 							<p class="codenames_blk">
-							Xperia™ V / AX / VL / VC<br /><img src="img/tsubasa.png" height="200" /><img src="img/SO-01E.png" height="200" /><img src="img/SOL21.png" height="200" /><br />Tsubasa
+							Xperia™ V / AX / VL / VC<br /><img class="lazy" data-original="img/tsubasa.png" height="200" /><img class="lazy" data-original="img/SO-01E.png" height="200" /><img class="lazy" data-original="img/SOL21.png" height="200" /><br />Tsubasa
 							</p>
 						</div>
 					</div>
@@ -262,13 +271,13 @@ Xperiaのコードネーム一覧です。<br />
 					<div id="panel-element-98673111789324" class="panel-collapse">
 						<div class="panel-body">
 							<p class="codenames_blk">
-							Xperia™ tipo / tipo Dual<br /><img src="img/tapioca.png" height="200" /><br />Tapioca
+							Xperia™ tipo / tipo Dual<br /><img class="lazy" data-original="img/tapioca.png" height="200" /><br />Tapioca
 							</p>
 							<p class="codenames_blk">
-							Xperia™ miro<br /><img src="img/mesona.png" height="200" /><br />Mesona
+							Xperia™ miro<br /><img class="lazy" data-original="img/mesona.png" height="200" /><br />Mesona
 							</p>
 							<p class="codenames_blk">
-							Xperia™ J<br /><img src="img/jlo.png" height="200" /><br />JLo
+							Xperia™ J<br /><img class="lazy" data-original="img/jlo.png" height="200" /><br />JLo
 							</p>
 						</div>
 					</div>
@@ -281,19 +290,19 @@ Xperiaのコードネーム一覧です。<br />
 					<div id="panel-element-986731117893246" class="panel-collapse">
 						<div class="panel-body">
 							<p class="codenames_blk">
-							Xperia™ Z<br /><img src="img/yuga.png" height="200" /><br />Yuga
+							Xperia™ Z<br /><img class="lazy" data-original="img/yuga.png" height="200" /><br />Yuga
 							</p>
 							<p class="codenames_blk">
-							Xperia™ ZL / ZQ<br /><img src="img/odin.png" height="200" /><br />Odin
+							Xperia™ ZL / ZQ<br /><img class="lazy" data-original="img/odin.png" height="200" /><br />Odin
 							</p>
 							<p class="codenames_blk">
-							Xperia™ ZR / A<br /><img src="img/dogo.png" height="200" /><img src="img/SO-04Em.png" height="200" /><br />Dogo
+							Xperia™ ZR / A<br /><img class="lazy" data-original="img/dogo.png" height="200" /><img class="lazy" data-original="img/SO-04Em.png" height="200" /><br />Dogo
 							</p>
 							<p class="codenames_blk">
-							Xperia™ UL<br /><img src="img/SOL22.png" height="200" /><br />Gaga
+							Xperia™ UL<br /><img class="lazy" data-original="img/SOL22.png" height="200" /><br />Gaga
 							</p>
 							<p class="codenames_blk">
-							Xperia™ Tablet Z<br /><img src="img/pollux.png" height="200" /><br />Pollux
+							Xperia™ Tablet Z<br /><img class="lazy" data-original="img/pollux.png" height="200" /><br />Pollux
 							</p>
 						</div>
 					</div>
@@ -306,7 +315,7 @@ Xperiaのコードネーム一覧です。<br />
 					<div id="panel-element-986731117893247" class="panel-collapse">
 						<div class="panel-body">
 							<p class="codenames_blk">
-							Xperia™ E / E Dual<br /><img src="img/nanhu.png" height="200" /><br />Nanhu
+							Xperia™ E / E Dual<br /><img class="lazy" data-original="img/nanhu.png" height="200" /><br />Nanhu
 							</p>
 						</div>
 					</div>
@@ -319,13 +328,13 @@ Xperiaのコードネーム一覧です。<br />
 					<div id="panel-element-98647" class="panel-collapse">
 						<div class="panel-body">
 							<p class="codenames_blk">
-							Xperia™ SP<br /><img src="img/huashan.png" height="200" /><br />HuaShan
+							Xperia™ SP<br /><img class="lazy" data-original="img/huashan.png" height="200" /><br />HuaShan
 							</p>
 							<p class="codenames_blk">
-							Xperia™ L<br /><img src="img/taoshan.png" height="200" /><br />TaoShan
+							Xperia™ L<br /><img class="lazy" data-original="img/taoshan.png" height="200" /><br />TaoShan
 							</p>
 							<p class="codenames_blk">
-							Xperia™ M / M Dual<br /><img src="img/nicki.png" height="200" /><br />Nicki
+							Xperia™ M / M Dual<br /><img class="lazy" data-original="img/nicki.png" height="200" /><br />Nicki
 							</p>
 						</div>
 					</div>
@@ -338,7 +347,7 @@ Xperiaのコードネーム一覧です。<br />
 					<div id="panel-element-986470" class="panel-collapse">
 						<div class="panel-body">
 							<p class="codenames_blk">
-							Xperia™ C<br /><img src="img/cn3.png" height="200" /><br />Pelican
+							Xperia™ C<br /><img class="lazy" data-original="img/cn3.png" height="200" /><br />Pelican
 							</p>
 						</div>
 					</div>
@@ -351,10 +360,10 @@ Xperiaのコードネーム一覧です。<br />
 					<div id="panel-element-986472" class="panel-collapse">
 						<div class="panel-body">
 							<p class="codenames_blk">
-							Xperia™ Z Ultra<br /><img src="img/togari.png" height="200" /><br />Togari
+							Xperia™ Z Ultra<br /><img class="lazy" data-original="img/togari.png" height="200" /><br />Togari
 							</p>
 							<p class="codenames_blk">
-							Xperia™ Z1 / Z1s<br /><img src="img/honami.png" height="200" /><br />Honami
+							Xperia™ Z1 / Z1s<br /><img class="lazy" data-original="img/honami.png" height="200" /><br />Honami
 							</p>
 						</div>
 					</div>
@@ -367,10 +376,10 @@ Xperiaのコードネーム一覧です。<br />
 					<div id="panel-element-9864721" class="panel-collapse">
 						<div class="panel-body">
 							<p class="codenames_blk">
-							Xperia™ Z1 Compact / Z1 f<br /><img src="img/amami.png" height="200" /><img src="img/SO-02F.png" height="200" /><br />Amami
+							Xperia™ Z1 Compact / Z1 f<br /><img class="lazy" data-original="img/amami.png" height="200" /><img class="lazy" data-original="img/SO-02F.png" height="200" /><br />Amami
 							</p>
 							<p class="codenames_blk">
-							Xperia™ A2 / J1 Compact<br /><img src="img/SO-04F.png" height="200" /><img src="img/D5788.png" height="200" /><br />Altair
+							Xperia™ A2 / J1 Compact<br /><img class="lazy" data-original="img/SO-04F.png" height="200" /><img class="lazy" data-original="img/D5788.png" height="200" /><br />Altair
 							</p>
 						</div>
 					</div>
@@ -383,7 +392,7 @@ Xperiaのコードネーム一覧です。<br />
 					<div id="panel-element-9864723" class="panel-collapse">
 						<div class="panel-body">
 							<p class="codenames_blk">
-							Xperia™ E1 / E1 Dual<br /><img src="img/falcon.png" height="200" /><br />Falcon
+							Xperia™ E1 / E1 Dual<br /><img class="lazy" data-original="img/falcon.png" height="200" /><br />Falcon
 							</p>
 						</div>
 					</div>
@@ -396,19 +405,19 @@ Xperiaのコードネーム一覧です。<br />
 					<div id="panel-element-98647233" class="panel-collapse">
 						<div class="panel-body">
 							<p class="codenames_blk">
-							Xperia™ T2 Ultra / T2 Ultra Dual<br /><img src="img/tianchi.png" height="200" /><br />Tianchi
+							Xperia™ T2 Ultra / T2 Ultra Dual<br /><img class="lazy" data-original="img/tianchi.png" height="200" /><br />Tianchi
 							</p>
 							<p class="codenames_blk">
-							Xperia™ M2 / M2 Dual / M2 Aqua<br /><img src="img/eagle.png" height="200" /><br />Eagle / Seahawk
+							Xperia™ M2 / M2 Dual / M2 Aqua<br /><img class="lazy" data-original="img/eagle.png" height="200" /><br />Eagle / Seahawk
 							</p>
 							<p class="codenames_blk">
-							Xperia™ T3<br /><img src="img/seagull.png" height="200" /><br />Seagull
+							Xperia™ T3<br /><img class="lazy" data-original="img/seagull.png" height="200" /><br />Seagull
 							</p>
 							<p class="codenames_blk">
-							Xperia™ C3 / C3 Dual<br /><img src="img/wukong.png" height="200" /><br />Wukong
+							Xperia™ C3 / C3 Dual<br /><img class="lazy" data-original="img/wukong.png" height="200" /><br />Wukong
 							</p>
 							<p class="codenames_blk">
-							Xperia™ E3 / E3 Dual<br /><img src="img/flamingo.png" height="200" /><br />Flamingo
+							Xperia™ E3 / E3 Dual<br /><img class="lazy" data-original="img/flamingo.png" height="200" /><br />Flamingo
 							</p>
 						</div>
 					</div>
@@ -421,13 +430,13 @@ Xperiaのコードネーム一覧です。<br />
 					<div id="panel-element-9864724" class="panel-collapse">
 						<div class="panel-body">
 							<p class="codenames_blk">
-							Xperia™ Z2<br /><img src="img/sirius.png" height="200" /><br />Sirius
+							Xperia™ Z2<br /><img class="lazy" data-original="img/sirius.png" height="200" /><br />Sirius
 							</p>
 							<p class="codenames_blk">
-							Xperia™ ZL2 / Z2a<br /><img src="img/SOL25.png" height="200" /><br />Canopus
+							Xperia™ ZL2 / Z2a<br /><img class="lazy" data-original="img/SOL25.png" height="200" /><br />Canopus
 							</p>
 							<p class="codenames_blk">
-							Xperia™ Z2 Tablet<br /><img src="img/castor.png" height="200" /><br />Castor
+							Xperia™ Z2 Tablet<br /><img class="lazy" data-original="img/castor.png" height="200" /><br />Castor
 							</p>
 						</div>
 					</div>
@@ -440,13 +449,13 @@ Xperiaのコードネーム一覧です。<br />
 					<div id="panel-element-9864729" class="panel-collapse">
 						<div class="panel-body">
 							<p class="codenames_blk">
-							Xperia™ Z3 / Z3 Dual / Z3v<br /><img src="img/leo.png" height="200" /><img src="img/z3v.png" height="200" /><br />Leo
+							Xperia™ Z3 / Z3 Dual / Z3v<br /><img class="lazy" data-original="img/leo.png" height="200" /><img class="lazy" data-original="img/z3v.png" height="200" /><br />Leo
 							</p>
 							<p class="codenames_blk">
-							Xperia™ Z3 Compact<br /><img src="img/aries.png" height="200" /><br />Aries
+							Xperia™ Z3 Compact<br /><img class="lazy" data-original="img/aries.png" height="200" /><br />Aries
 							</p>
 							<p class="codenames_blk">
-							Xperia™ Z3 Tablet Compact<br /><img src="img/scorpion.png" height="200" /><br />Scorpion
+							Xperia™ Z3 Tablet Compact<br /><img class="lazy" data-original="img/scorpion.png" height="200" /><br />Scorpion
 							</p>
 						</div>
 					</div>
@@ -459,7 +468,7 @@ Xperiaのコードネーム一覧です。<br />
 					<div id="panel-element-986472411" class="panel-collapse">
 						<div class="panel-body">
 							<p class="codenames_blk">
-							Xperia™ A4<br /><img src="img/SO-04G.png" height="200" /><br />Ajisai
+							Xperia™ A4<br /><img class="lazy" data-original="img/SO-04G.png" height="200" /><br />Ajisai
 							</p>
 							<p class="codenames_blk">
 							<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -484,19 +493,19 @@ Xperiaのコードネーム一覧です。<br />
 					<div id="panel-element-98647248" class="panel-collapse">
 						<div class="panel-body">
 							<p class="codenames_blk">
-							Xperia™ E4 / E4 Dual<br /><img src="img/jasmine.png" height="200" /><br />Jasmine
+							Xperia™ E4 / E4 Dual<br /><img class="lazy" data-original="img/jasmine.png" height="200" /><br />Jasmine
 							</p>
 							<p class="codenames_blk">
-							Xperia™ E4g / E4g Dual<br /><img src="img/calla.png" height="200" /><br />Calla
+							Xperia™ E4g / E4g Dual<br /><img class="lazy" data-original="img/calla.png" height="200" /><br />Calla
 							</p>
 							<p class="codenames_blk">
-							Xperia™ C4 / C4 Dual<br /><img src="img/cosmos.png" height="200" /><br />Cosmos
+							Xperia™ C4 / C4 Dual<br /><img class="lazy" data-original="img/cosmos.png" height="200" /><br />Cosmos
 							</p>
 							<p class="codenames_blk">
-							Xperia™ C5 Ultra / C5 Ultra Dual<br /><img src="img/lavender.png" height="200" /><br />Lavender
+							Xperia™ C5 Ultra / C5 Ultra Dual<br /><img class="lazy" data-original="img/lavender.png" height="200" /><br />Lavender
 							</p>
 							<p class="codenames_blk">
-							Xperia™ M5<br /><img src="img/holly.png" height="200" /><br />Holly
+							Xperia™ M5<br /><img class="lazy" data-original="img/holly.png" height="200" /><br />Holly
 							</p>
 						</div>
 					</div>
@@ -509,7 +518,7 @@ Xperiaのコードネーム一覧です。<br />
 					<div id="panel-element-98647248" class="panel-collapse">
 						<div class="panel-body">
 							<p class="codenames_blk">
-							Xperia™ M4 Aqua / M4 Aqua Dual<br /><img src="img/tulip.png" height="200" /><br />Tulip
+							Xperia™ M4 Aqua / M4 Aqua Dual<br /><img class="lazy" data-original="img/tulip.png" height="200" /><br />Tulip
 							</p>
 						</div>
 					</div>
@@ -522,13 +531,13 @@ Xperiaのコードネーム一覧です。<br />
 					<div id="panel-element-9864724899" class="panel-collapse">
 						<div class="panel-body">
 							<p class="codenames_blk">
-							Xperia™ Z3+ / Z3+ Dual / Z4<br /><img src="img/ivy.png" height="200" /><br />Ivy
+							Xperia™ Z3+ / Z3+ Dual / Z4<br /><img class="lazy" data-original="img/ivy.png" height="200" /><br />Ivy
 							</p>
 							<p class="codenames_blk">
-							Xperia™ Z4v<br /><img src="img/aoi.png" height="200" /><br />Aoi
+							Xperia™ Z4v<br /><img class="lazy" data-original="img/aoi.png" height="200" /><br />Aoi
 							</p>
 							<p class="codenames_blk">
-							Xperia™ Z4 Tablet<br /><img src="img/karin.png" height="200" /><br />Karin
+							Xperia™ Z4 Tablet<br /><img class="lazy" data-original="img/karin.png" height="200" /><br />Karin
 							</p>
 						</div>
 					</div>
@@ -541,13 +550,13 @@ Xperiaのコードネーム一覧です。<br />
 					<div id="panel-element-982" class="panel-collapse">
 						<div class="panel-body">
 							<p class="codenames_blk">
-							Xperia™ Z5<br /><img src="img/sumire.png" height="200" /><br />Sumire
+							Xperia™ Z5<br /><img class="lazy" data-original="img/sumire.png" height="200" /><br />Sumire
 							</p>
 							<p class="codenames_blk">
-							Xperia™ Z5 Compact<br /><img src="img/suzuran.png" height="200" /><br />Suzuran
+							Xperia™ Z5 Compact<br /><img class="lazy" data-original="img/suzuran.png" height="200" /><br />Suzuran
 							</p>
 							<p class="codenames_blk">
-							Xperia™ Z5 Premium<br /><img src="img/satsuki.png" height="200" /><br />Satsuki
+							Xperia™ Z5 Premium<br /><img class="lazy" data-original="img/satsuki.png" height="200" /><br />Satsuki
 							</p>
 						</div>
 					</div>
