@@ -1,5 +1,4 @@
-.Z,.S,.AM,.Z1,.Z1a,.Z1f,.Z2,.A2,.ZL2,.SX,.VL,.UL,.TZ,.ZU,.AX,.NX,.GX,.aHD,.play,.ray,.acro,.arc,.x10,.a12S,.mini,.Z2T,.Z3dcm,.Z3au,.Z3sb,.Z3c,.J1c
-,.Z4d,.Z4a,.Z4s,.A4,.Z4Td,.Z4Ta{
+.device-panel{
 background-position: right center; 
 background-repeat:no-repeat;
 background-size:contain;
@@ -134,6 +133,21 @@ background-image: url("../img/SO-05G.png");
 }
 .Z4Ta{
 background-image: url("../img/SOT31.png");
+}
+.Z5a{
+background-image: url("../img/SOV32.png");
+}
+.Z5d{
+background-image: url("../img/SO-01H.png");
+}
+.Z5s{
+background-image: url("../img/501SO.png");
+}
+.Z5C{
+background-image: url("../img/SO-02H.png");
+}
+.Z5P{
+background-image: url("../img/SO-03H.png");
 }
 
 
