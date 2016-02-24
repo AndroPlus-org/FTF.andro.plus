@@ -37,7 +37,22 @@ span, p{
     margin-bottom: 5px;
     padding-left: 1em; /*1em（1文字）分、右に動かす*/
 }
-
+.amazon{
+font-size: 18px !important;
+background: #43a047;
+color: #fff !important;
+padding: 10px;
+display: block;
+border-radius: 3px;
+}
+.cancelled{
+font-size: 18px !important;
+background: #9e9e9e;
+color: #fff !important;
+padding: 10px;
+display: block;
+border-radius: 3px;
+}
 
 .Z{
 background-image: url("../img/SO-02E.png");
@@ -167,6 +182,15 @@ background-image: url("../img/SO-02H.png");
 background-image: url("../img/SO-03H.png");
 }
 
+.X{
+background-image: url("../img/xperia-x.png");
+}
+.XP{
+background-image: url("../img/xperia-x-performance.png");
+}
+.XA{
+background-image: url("../img/xperia-xa.png");
+}
 
 .codenames_blk {
     min-width: 190px;
