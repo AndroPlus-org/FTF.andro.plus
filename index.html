@@ -47,8 +47,10 @@
 });
   </script>
   <script>
-if (window.location.protocol != "https:" && window.location.protocol != "file:") {
-    window.location.href = "https:" + window.location.href.substring(window.location.protocol.length);}
+  if ( window.location.protocol != "file:") {
+	if (window.location.protocol != "https:") {
+	window.location.href = "https:" + window.location.href.substring(window.location.protocol.length);}
+  }
   </script>
 <script type="text/javascript" src="https://api.docodoco.jp/v4/docodoco?key=qz9AkFx3wVSBLbBunZPsQJC6sA2YI6LJJfVrokZ8ZuDfrmVgVLbnEGSzTonLb3Af"
  charset="utf-8"></script>
@@ -1246,6 +1248,7 @@ Donation is also appreciated.<br />
 		</div>
 	</div>
 </div>
-<a href="https://androplus.org/" style="width: 50%;display: block;margin:300px auto 30px;text-align:center;color:#333;padding: 10px;border-radius: 2px;box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);"><img src="img/androplus_f.png"><br />AndroPlus</a>
+<a href="https://androplus.org/" style="width: 50%;display: block;margin:300px auto 30px;text-align:center;color:#333;padding: 10px;border-radius: 2px;box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);"><img src="img/androplus_f.png"><br />AndroPlus<br /></a>
+<a href="priv.html">プライバシーポリシー</a>
 </body>
 </html>
