@@ -185,11 +185,26 @@ background-image: url("../img/SO-03H.png");
 .X{
 background-image: url("../img/xperia-x.png");
 }
+.Xd{
+background-image: url("../img/xperia-x-kugo.png");
+}
 .XP{
 background-image: url("../img/xperia-x-performance.png");
 }
 .XA{
 background-image: url("../img/xperia-xa.png");
+}
+.XPa{
+background-image: url("../img/SOV33.png");
+}
+.XPd{
+background-image: url("../img/SO-04H.png");
+}
+.XPs{
+background-image: url("../img/502SO.png");
+}
+.XAU{
+background-image: url("../img/XA-Ultra.png");
 }
 
 .codenames_blk {
