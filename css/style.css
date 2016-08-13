@@ -216,3 +216,20 @@ background-image: url("../img/XA-Ultra.png");
     float: left;
     box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.37);
 }
+
+#for_somc_with_love{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+}
+
+#for_somc_with_love p{
+    text-align: center;
+    margin: 5px;
+}
+#for_somc_with_love a{
+    color: #eee;
+    text-decoration: underline;
+}
