@@ -207,6 +207,13 @@ background-image: url("../img/502SO.png");
 background-image: url("../img/XA-Ultra.png");
 }
 
+.XC{
+background-image: url("../img/Xperia_X_Compact.png");
+}
+.XZ{
+background-image: url("../img/Xperia_XZ.png");
+}
+
 .codenames_blk {
     min-width: 190px;
     padding: 10px;
