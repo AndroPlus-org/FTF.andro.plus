@@ -845,6 +845,41 @@ Xperia Xシリーズからは型番規則が変更されました。<br />
 </div>
 
 <script>
+function webgl_support() { 
+   try{
+    var canvas = document.createElement( 'canvas' ); 
+    return !! window.WebGLRenderingContext && ( 
+         canvas.getContext( 'webgl' ) || canvas.getContext( 'experimental-webgl' ) );
+   }catch( e ) { return false; } 
+ };
+
+if (webgl_support() !== null) {
+var canvas = $('<canvas />', { width: '1', height: '1' }).appendTo('body');
+var webglVersion = window.location.search.indexOf('v=2') > 0 ? 2 : 1;
+var gl;
+var possibleNames = (webglVersion === 2) ? ['webgl2', 'experimental-webgl2'] : ['webgl', 'experimental-webgl'];
+var contextName;
+possibleNames.forEach(function (name) {
+    gl = canvas[0].getContext(name, { stencil : true });
+    contextName = !!gl;
+});
+canvas.remove();
+function getUnmaskedInfo(gl) {
+    var unMaskedInfo;
+    var dbgRenderInfo = gl.getExtension("WEBGL_debug_renderer_info");
+    if (dbgRenderInfo != null) {
+        unMaskedInfo = gl.getParameter(dbgRenderInfo.UNMASKED_RENDERER_WEBGL);
+        //unMaskedInfo.vendor   = gl.getParameter(dbgRenderInfo.UNMASKED_VENDOR_WEBGL);
+    }
+    return unMaskedInfo;
+}
+} else {
+function getUnmaskedInfo(gl) {
+    return null;
+}
+}
+ga('set', 'dimension14' , getUnmaskedInfo(gl));
+ga('send', 'event', 'hidden', 'info', 'gpu');
 $(function(){
 	if(SURFPOINT){
 		if(SURFPOINT.getOrgName() == "ソニーモバイルコミュニケーションズ株式会社"){
