@@ -317,6 +317,23 @@ background-image: url("../img/901SO.png");
 background-image: url("../img/Xperia5G.png");
 }
 
+.X5d{
+background-image: url("../img/SO-01M.png");
+}
+.X5a{
+background-image: url("../img/SOV41.png");
+}
+.X5s{
+background-image: url("../img/901SO-5.png");
+}
+
+.X8a{
+background-image: url("../img/xperia-8.png");
+}
+.X8s{
+background-image: url("../img/902SO.png");
+}
+
 .codenames_blk {
     min-width: 190px;
     padding: 10px;
