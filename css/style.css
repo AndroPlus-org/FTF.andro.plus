@@ -356,6 +356,19 @@ background-image: url("../img/SOV43.png");
 background-image: url("../img/A001SO.png");
 }
 
+.X1free{
+background-image: url("../img/xperia-1-simfree.png");
+}
+.X5free{
+background-image: url("../img/xperia-5-simfree.png");
+}
+.X8Lfree{
+background-image: url("../img/xperia-8-simfree.png");
+}
+.X10MK2free{
+background-image: url("../img/xperia-1mk2-simfree.png");
+}
+
 .codenames_blk {
     min-width: 190px;
     padding: 10px;
