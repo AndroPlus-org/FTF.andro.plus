@@ -24,6 +24,13 @@ span, p{
 	border-radius:5px;
 	padding:2px;
 }
+.warning{
+	background-color:#FFEBEE;
+    border: 2px solid #E53935;
+	border-radius:5px;
+	padding:2px;
+    margin-bottom: 1rem;
+}
 .bra_ul {
     list-style: none;
     line-height: 1.3;
