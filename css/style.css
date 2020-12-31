@@ -317,7 +317,7 @@ background-image: url("../img/SO-03L.png");
 background-image: url("../img/SOV40.png");
 }
 .X1s{
-background-image: url("../img/901SO.png");
+background-image: url("../img/802SO.png");
 }
 
 .X5G{
@@ -377,6 +377,16 @@ background-image: url("../img/xperia-1mk2-simfree.png");
 }
 .X10MK2free{
 background-image: url("../img/xperia-10II-free.png");
+}
+
+.X5MK2d{
+background-image: url("../img/SO-52A.png");
+}
+.X5MK2a{
+background-image: url("../img/SOG02.png");
+}
+.X5MK2s{
+background-image: url("../img/A002SO.png");
 }
 
 .codenames_blk {
