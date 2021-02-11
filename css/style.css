@@ -389,6 +389,10 @@ background-image: url("../img/SOG02.png");
 background-image: url("../img/A002SO.png");
 }
 
+.XPRO{
+background-image: url("../img/xperia-pro-2020.png");
+}
+
 .codenames_blk {
     min-width: 190px;
     padding: 10px;
